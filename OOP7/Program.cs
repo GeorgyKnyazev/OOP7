@@ -101,8 +101,8 @@ namespace OOP7
             NumberTicketsPurchased = numberTicketsPurchased;
         }
 
-        public string TrainRoute { get; set;}
-        public int NumberTicketsPurchased { get; set;}
+        public string TrainRoute { get; private set;}
+        public int NumberTicketsPurchased { get; private set;}
 
         public void AddWagon(Wagon wagon)
         {
