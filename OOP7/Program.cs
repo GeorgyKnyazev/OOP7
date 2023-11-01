@@ -56,7 +56,7 @@ namespace OOP7
             }
         }
 
-        public void CreatTrain()
+        private void CreatTrain()
         {
             Random rand = new Random();
 
@@ -79,7 +79,7 @@ namespace OOP7
             _trains.Add(train);
         }
 
-        public void ShowAllTrain()
+        private void ShowAllTrain()
         {
             Console.WriteLine($"Поездов на маршруте: {_trains.Count}");
             
